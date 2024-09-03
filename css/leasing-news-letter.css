@@ -1,0 +1,45 @@
+
+/****************************************
+    leasing-newsletter-wrapper
+*****************************************/
+.nav .btn-leasing.nav-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    background: #969a79;
+    border: solid 1px #5a5d4a;
+    padding: 10px 20px 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+    color: #000;
+}
+
+.nav .btn-leasing.nav-link:hover {
+    color: #fff;
+}
+
+.nav .btn-leasing.active {
+    color: #fff;
+    font-weight: 600 !important;
+    letter-spacing: 1.5;
+    background-color: rgb(58, 58, 25);
+    color: rgb(255, 255, 255);
+}
+
+.leasing-newsletter-wrapper {
+    background: url('../images/news-letter-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0 20px 0;
+}
+
+.leasing-newsletter-container i {
+    font-size: 150px;
+}
+
+.leasing-newsletter-container h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+}

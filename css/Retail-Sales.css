@@ -1,0 +1,21 @@
+/* ========================================== 
+                retail
+========================================== */
+.search-pages-banners {
+    height: auto;
+    background-size: cover;
+    margin-top: 30px;
+    border-bottom: solid 5px #969a79;
+    margin-bottom: 40px;
+    padding-bottom: 45px;
+}
+
+.retail-page a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.retail-page a:hover {
+    color: #FFFF19;
+    text-decoration: underline;
+}

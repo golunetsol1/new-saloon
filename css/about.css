@@ -1,0 +1,51 @@
+/* ========================================== 
+                about page  
+========================================== */
+.pages-banners {
+    height: 451px;
+    background-size: cover;
+    margin-top: 30px;
+    border-bottom: solid 5px #969a79;
+    margin-bottom: 80px;
+}
+
+.current-specials-pages-wrapper {
+    margin: 50px 0 50px 0;
+}
+
+.current-specials-pages {
+    margin: 50px 0 50px 0;
+}
+
+.current-specials-pages h4 {
+    margin: 0px 0 10px 0;
+    display: block;
+    color: #fff;
+}
+
+.current-specials-pages p {
+    color: #fff;
+}
+
+.current-specials-pages i {
+    margin: 10px 0 5px 0;
+    display: block;
+    color: #000;
+    font-size: 12px;
+}
+
+.currentSpecialsPages .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+}
+
+.currentSpecialsPages .owl-dots .owl-dot span {
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+}
+
+.currentSpecialsPages .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff;
+}
