@@ -92,7 +92,7 @@
 	width: 100%;
 	height: 702px;
 	z-index: -1;
-	padding-top: 38px;
+	padding-top: 40px;
 }
 
 .bannerSlider .item {
@@ -114,8 +114,13 @@
 	z-index: 1;
 }
 
+.bannerSlider .banner-caption-wrapper .col-md-6{
+	padding-right: 0 !important;
+}
+
 .caption-banner {
 	margin-top: 230px;
+	margin-right: -15px;	
 }
 
 .caption-banner h1 {
