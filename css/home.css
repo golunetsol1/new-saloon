@@ -81,7 +81,7 @@
     Banner
 ***************************************************/
 .banner {
-	padding-bottom: 19px;
+	padding-bottom: 20px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -92,19 +92,20 @@
 	width: 100%;
 	height: 702px;
 	z-index: -1;
+	padding-top: 38px;
 }
 
 .bannerSlider .item {
 	width: 100%;
-	background-position: center center;
-	background-size: cover;
+	background-position: center center !important;
+	background-size: cover !important;
 	height: 702px;
 	z-index: 0;
 }
 
 
 .banner-caption-wrapper {
-	margin-top: 350px;
+	margin-top: 320px;
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -200,12 +201,16 @@ label {
 	margin-bottom: 10px;
 }
 
+main #sub label{
+	margin-bottom: 2px;
+}
+
 .form-group label {
 	color: #fff;
 	font-weight: 300;
 	font-size: 13px;
 	text-transform: uppercase;
-	margin-bottom: 2px;
+	margin-bottom: 3px;
 }
 
 .radio-inline label {
@@ -244,7 +249,7 @@ label {
 }
 
 .btn-search {
-	padding: 15px 25px 15px 25px;
+	padding: 15px 25px 14px 25px;
 	border-radius: 0;
 	color: #fff;
 	text-transform: uppercase;
